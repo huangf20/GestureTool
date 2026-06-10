@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GestureTools</string>
+    <string name="welcome_tittle">隔空手势工具</string>
+    <string name="welcome_text">使用这个工具前，需获取一些必要的权限，请点击下方按钮进行获取。</string>
+    <string name="welcome_button_text">现在开始</string>
+    <string name="accessibility_service_description">提供滑动屏幕功能</string>
+
+</resources>

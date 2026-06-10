@@ -1,0 +1,54 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_file_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取文件权限"
+            android:backgroundTint="@android:color/white"
+            app:strokeColor="#9E9E9E"
+            app:strokeWidth="2dp"
+            app:cornerRadius="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_overlay_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取上层权限"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@android:color/white"
+            app:strokeColor="#9E9E9E"
+            app:strokeWidth="2dp"
+            app:cornerRadius="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_accessibility_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取无障碍权限"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@android:color/white"
+            app:strokeColor="#9E9E9E"
+            app:strokeWidth="2dp"
+            app:cornerRadius="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_already_granted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="已获取"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@android:color/white"
+            app:strokeColor="#9E9E9E"
+            app:strokeWidth="2dp"
+            app:cornerRadius="10dp"/>
+
+    </LinearLayout>
+</layout>
